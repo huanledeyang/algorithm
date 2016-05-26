@@ -11,7 +11,6 @@ public class CharacterCount {
 	public LinkedHashMap<String,Integer> lhs = new LinkedHashMap<String, Integer>();
 	
 	
-	//锟街凤拷统锟斤拷
 	public void getCharacterCount(String str){
 		String[] split = str.split("\\.\\s*|\\s+|,\\s*^[\u4e00-\u9fa5]{0,128}$");
 		for(int i=0; i<split.length; i++) {
